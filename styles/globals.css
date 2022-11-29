@@ -21,6 +21,8 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: linear-gradient(180deg, #090833 0%,
+     rgba(28, 4, 58, 0.65) 100%);
+    ;
   }
 }
