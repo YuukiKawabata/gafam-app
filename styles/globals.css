@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body{
+  font-family: 'Yuji Syuku', serif;
+  width: 100%;
+  heigth: 100%;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -37,9 +43,6 @@ a {
 }
 
 .gafamImage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
 }
 
