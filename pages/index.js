@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,10 +24,17 @@ export default function Home() {
         <p className="p-5">出来ない時、困った時、</p>
         <p className="p-5">貴方の気持ちが前向きになりますように。</p>
       </div>
+      <Link href="/selection">
+        <button className="button block sm:text-2xl">今すぐ始める</button>
+      </Link>
 
-      <button className="button block sm:text-2xl">今すぐ始める</button>
-
-      <Image className="gafamImage" src="/footer.png" width={380} height={150} alt="GAFAMロゴ画像" />
+      <Image
+        className="gafamImage"
+        src="/footer.png"
+        width={380}
+        height={150}
+        alt="GAFAMロゴ画像"
+      />
     </div>
   );
 }

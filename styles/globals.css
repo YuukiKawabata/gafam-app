@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 a {
   color: inherit;
   text-decoration: none;
@@ -14,7 +12,20 @@ a {
   border-radius: 40px;
   padding: 1rem 4rem;
   margin: 2rem auto;
-  
+}
+
+.selections-button {
+  padding: 1rem 4rem;
+  margin: 2rem auto;
+  align-items: center;
+  justify-content: center;
+}
+.selection-button {
+  margin: 3rem 1rem;
+  width: 5rem;
+  heigth: 2rem;
+  border: 1px solid;
+  border-radius: 40px;
 }
 
 .footer {
@@ -26,7 +37,10 @@ a {
 }
 
 .gafamImage {
-  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 @media (prefers-color-scheme: dark) {
