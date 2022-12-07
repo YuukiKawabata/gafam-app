@@ -31,7 +31,7 @@ export default function Home() {
       </div>
 
       <Link href="/selection">
-        <div className="h-1/6">
+        <div className="h-1/6 flex justify-center items-center">
           <button className="button block sm:text-2xl">今すぐ始める</button>
         </div>
       </Link>
