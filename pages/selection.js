@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-
 export default function selection() {
   return (
     <div className="h-screen w-screen justify-center items-center">
@@ -20,13 +19,16 @@ export default function selection() {
         <button className="selection-button block">test</button>
       </div>
 
-      <Image
+      <Link href="/">
+        <button className="selection-button">戻る</button>
+      </Link>
+      {/* <Image
         className="gafamImage"
         src="/footer.png"
         width={380}
         height={150}
         alt="GAFAMロゴ画像"
-      />
+      /> */}
     </div>
   );
 }

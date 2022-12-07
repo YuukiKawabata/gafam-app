@@ -15,13 +15,13 @@ a {
 }
 
 .selections-button {
-  padding: 1rem 4rem;
-  margin: 2rem auto;
+  padding: 1rem;
+  margin: 1rem auto;
   align-items: center;
   justify-content: center;
 }
 .selection-button {
-  margin: 3rem 1rem;
+  margin: 3rem 2rem;
   width: 5rem;
   heigth: 2rem;
   border: 1px solid;
