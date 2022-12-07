@@ -14,28 +14,29 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      
-        <h1 className="text-4xl m-10 text-center tracking-wider sm:text-6xl">
+      <div className="h-1/6 text-4xl text-center tracking-wider flex justify-center items-center sm:text-6xl">
+        <h1 className="">
           ビッグ・テックを
           <br />
           愛する人へ捧ぐ
         </h1>
+      </div>
 
-        <div className="text-center leading-10 text-lg tracking-widest sm:text-2xl">
-          <p className="p-5">興奮する名言を心に刻む。</p>
-          <p className="p-5">そして、 自分を奮い立たせよ。</p>
-          <p className="p-5">何か行動したい時、</p>
-          <p className="p-5">出来ない時、困った時、</p>
-          <p className="p-5">貴方の気持ちが前向きになりますように。</p>
+      <div className="h-4/6 text-center leading-10 text-lg tracking-widest flex flex-wrap justify-center items-center sm:text-2xl">
+        <p className="p-5">興奮する名言を心に刻む。</p>
+        <p className="p-5">そして、 自分を奮い立たせよ。</p>
+        <p className="p-5">何か行動したい時、</p>
+        <p className="p-5">出来ない時、困った時、</p>
+        <p className="p-5">貴方の気持ちが前向きになりますように。</p>
+      </div>
+
+      <Link href="/selection">
+        <div className="h-1/6 flex justify-center items-center">
+          <button className="button block sm:text-2xl">今すぐ始める</button>
         </div>
+      </Link>
 
-        <Link href="/selection">
-          <div className="h-3/1">
-            <button className="button block sm:text-2xl">今すぐ始める</button>
-          </div>
-        </Link>
-
-        {/* <Image
+      {/* <Image
         className="gafamImage"
         src="/footer.png"
         width={380}

@@ -4,24 +4,42 @@ import Image from "next/image";
 export default function selection() {
   return (
     <div className="h-screen w-screen justify-center items-center">
-      <h1 className="text-4xl m-10 text-center tracking-wider sm:text-6xl">
-        今の気持ちは？
-      </h1>
+        <h1 className="h-1/6 text-4xl text-center tracking-wider flex justify-center items-center sm:text-6xl">
+          今の気持ちは？
+        </h1>
 
-      <div className="selections-button flex flex-wrap text-lg">
-        <button className="selection-button block">test</button>
-        <button className="selection-button block">test</button>
-        <button className="selection-button block">test</button>
-        <button className="selection-button block">test</button>
-        <button className="selection-button block">test</button>
-        <button className="selection-button block">test</button>
-        <button className="selection-button block">test</button>
-        <button className="selection-button block">test</button>
+      <div className="h-4/6 text-center leading-10 text-lg tracking-widest flex flex-wrap justify-center items-center sm:text-2xl">
+        <Link href="/answer">
+          <button className="selection-button block">test</button>
+        </Link>
+        <Link href="/answer">
+          <button className="selection-button block">test</button>
+        </Link>
+        <Link href="/answer">
+          <button className="selection-button block">test</button>
+        </Link>
+        <Link href="/answer">
+          <button className="selection-button block">test</button>
+        </Link>
+        <Link href="/answer">
+          <button className="selection-button block">test</button>
+        </Link>
+        <Link href="/answer">
+          <button className="selection-button block">test</button>
+        </Link>
+        <Link href="/answer">
+          <button className="selection-button block">test</button>
+        </Link>
+        <Link href="/answer">
+          <button className="selection-button block">test</button>
+        </Link>
       </div>
 
-      <Link href="/">
-        <button className="selection-button">戻る</button>
-      </Link>
+      <Link href="/answer">
+          <div className="h-1/6 flex justify-center items-center">
+            <button className="button block sm:text-2xl">戻る</button>
+          </div>
+        </Link>
       {/* <Image
         className="gafamImage"
         src="/footer.png"
