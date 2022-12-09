@@ -26,12 +26,6 @@ export default function selection() {
         <Link href="/answer">
           <button className="selection-button block">test</button>
         </Link>
-        <Link href="/answer">
-          <button className="selection-button block">test</button>
-        </Link>
-        <Link href="/answer">
-          <button className="selection-button block">test</button>
-        </Link>
       </div>
 
       <Link href="/answer">
