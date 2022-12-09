@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body{
-  font-family: 'Yuji Syuku', serif;
+html,
+body {
+  color: white;
+  background: linear-gradient(180deg, #090833 0%, rgba(28, 4, 58, 0.65) 100%);
+  font-family: "Yuji Syuku", serif;
   width: 100%;
   heigth: 100%;
 }
@@ -14,15 +17,16 @@ a {
 }
 .button {
   width: 80%;
-  border: 1px solid;
   border-radius: 40px;
   padding: 1rem 4rem;
   margin: 2rem auto;
+  border: 1px solid;
+
 }
 
 .selections-button {
   padding: 1rem;
-  margin:0 auto;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
 }
@@ -44,14 +48,4 @@ a {
 
 .gafamImage {
   margin: 0 auto;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: linear-gradient(180deg, #090833 0%, rgba(28, 4, 58, 0.65) 100%);
-  }
 }
