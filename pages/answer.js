@@ -4,9 +4,9 @@ import { data } from "./data";
 export default function answer() {
   const lists = data.Lists;
   let number = Math.floor(Math.random() * 4);
-  console.log(lists[number].name);
-  console.log(lists[number].value);
-
+  // console.log(lists[number].name);
+  // console.log(lists[number].value);
+  // console.log(number);
   const name = lists[number].name;
   const value = lists[number].value;
 
