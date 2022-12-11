@@ -40,10 +40,10 @@ export default function answer() {
 
   return (
     <div className="h-screen w-screen justify-center items-center">
-        <div className="h-1/6 m-5 text-4xl text-center tracking-wider flex justify-center items-center sm:text-8xl">
+        <div className="h-1/6 m-6 text-4xl text-center tracking-wider flex justify-center items-center sm:text-8xl">
       <Title text={name} />
       </div>
-      <div className="h-4/6 m-5 text-center leading-10 text-base tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
+      <div className="h-4/6 m-6 text-center leading-10 text-base tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
         <p>{content}</p>
       </div>
 
