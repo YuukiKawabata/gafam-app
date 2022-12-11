@@ -7,9 +7,10 @@ body {
   color: white;
   background: linear-gradient(180deg, #090833 0%, rgba(28, 4, 58, 0.65) 100%);
   font-family: serif;
-  width: 100%;
-  heigth: 100%;
+  width:100dvw;
+  heigth:100dvh;
 }
+
 
 a {
   color: inherit;
@@ -21,7 +22,6 @@ a {
   padding: 1rem 4rem;
   margin: 2rem auto;
   border: 1px solid;
-
 }
 
 .selections-button {

@@ -46,8 +46,8 @@ export default function answer() {
         <p className="">{content}</p>
       </div>
 
-      <Link href="/">
-        <Button text="TOPに戻る"/>
+      <Link href="selection">
+        <Button text="戻る"/>
       </Link>
     </div>
   );
