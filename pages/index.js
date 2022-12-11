@@ -13,12 +13,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Title text="ビッグ・テックを愛する人に捧ぐ"/>
+      <Title
+        text="ビッグ・テックを
+      愛する人に捧ぐ"
+      />
 
       <Inside />
 
       <Link href="/selection">
-        <Button text="始める"/>
+        <Button text="始める" />
       </Link>
     </div>
   );

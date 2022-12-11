@@ -1,5 +1,7 @@
 import Link from "next/link";
+import { useState } from "react";
 import { Button } from "../components/Button";
+import { Title } from "../components/Title";
 
 export default function answer() {
   
@@ -7,7 +9,7 @@ export default function answer() {
   const lists = 
     [
       {
-        name: "スティーブ・ジョブズ",
+        name: "スティーブジョブズ",
         value:
         "もし今日が人生最後の日だとしたら、今やろうとしていることは本当に自分のやりたいことだろうか？",
       },
@@ -31,19 +33,18 @@ export default function answer() {
   ];
 
   //ランダムな数字を出して、数字を元に名言を出す
-  const number = Math.floor(Math.random() * 4);
-
+  const [number, setNumber] = useState( Math.floor(Math.random() * 4));
   const name = lists[number].name;
   const content = lists[number].value;
-  //リロードするとエラーになる
+  //このページでリロードするとエラーになる
 
   return (
     <div className="h-screen w-screen justify-center items-center">
-      <div className="h-1/6 text-4xl text-center tracking-wider flex justify-center items-center sm:text-6xl">
-        <h1>{name}</h1>
+        <div className="h-1/6 m-5 text-4xl text-center tracking-wider flex justify-center items-center sm:text-8xl">
+      <Title text={name} />
       </div>
-      <div className="h-4/6 text-center leading-10 text-lg tracking-widest flex flex-wrap justify-center items-center sm:text-2xl">
-        <p className="">{content}</p>
+      <div className="h-4/6 m-5 text-center leading-10 text-base tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
+        <p>{content}</p>
       </div>
 
       <Link href="selection">

@@ -1,6 +1,6 @@
 export function Inside() {
   return (
-    <div className="h-4/6 text-center leading-10 text-sm tracking-widest flex flex-wrap justify-center items-center sm:text-xl">
+    <div className="h-4/6 m-5 text-center leading-10 text-base tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
       <p className="p-5">興奮する名言を心に刻む。</p>
       <p className="p-5">そして,自分を奮い立たせよ。</p>
       <p className="p-5">何か行動したい時、</p>
