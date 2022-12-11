@@ -1,9 +1,9 @@
+import { useState } from "react";
 import Link from "next/link";
-import { UseState } from "react";
 import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 
-export default function answer() {
+export default function Answer() {
   
   //名言のリスト
   const lists = 
@@ -33,7 +33,8 @@ export default function answer() {
   ];
 
   //ランダムな数字を出して、数字を元に名言を出す
-  const [number, setNumber] = UseState( Math.floor(Math.random() * 4));
+ const [number, setNumber] = useState(Math.floor(Math.random() * 4));
+  
   const name = lists[number].name;
   const content = lists[number].value;
   //このページでリロードするとエラーになる
