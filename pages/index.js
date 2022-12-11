@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { Button } from "../components/Button";
 import { Inside } from "../components/Inside";
-import { Title } from "../components/title";
+import { Title } from "../components/Title";
 
 export default function Home() {
   return (

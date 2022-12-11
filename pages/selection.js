@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "../components/Button";
-import { Title } from "../components/title";
+import { Title } from "../components/Title";
 
 export default function selection() {
   return (
