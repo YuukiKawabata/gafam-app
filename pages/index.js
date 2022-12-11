@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Button } from "../components/Button";
 import { Inside } from "../components/Inside";
 import { Title } from "../components/title";
-
 export default function Home() {
   return (
     <div className="h-screen w-screen justify-center items-center">
