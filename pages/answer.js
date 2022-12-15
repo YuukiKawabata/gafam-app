@@ -88,8 +88,8 @@ export default function Answer() {
   ];
 
   //ランダムな数字を出して、数字を元に名言を出す
-  const [number, setNumber] = useState(Math.floor(Math.random() * 4));
-
+  const [number, setNumber] = useState(Math.floor(Math.random() * 16));
+console.log(lists)
   const name = lists[number].name;
   const content = lists[number].value;
   //このページでリロードするとエラーになる
