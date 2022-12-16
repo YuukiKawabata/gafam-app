@@ -14,16 +14,16 @@ export default function selection() {
         <Link href="/cheerUp">
           <button className="selection-button block">励まして</button>
         </Link>
-        <Link href="/pushYourBack">
+        <Link href="/let'sGo">
           <button className="selection-button block">行くぞ！！</button>
         </Link>
         <Link href="/tired">
           <button className="selection-button block">疲れたよ。。</button>
         </Link>
-        <Link href="/answer">
+        <Link href="/rest">
           <button className="selection-button block">少し休憩</button>
         </Link>
-        <Link href="/answer">
+        <Link href="/calmDown">
           <button className="selection-button block">落ち着きたい</button>
         </Link>
       </div>

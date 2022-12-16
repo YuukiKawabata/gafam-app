@@ -1,4 +1,4 @@
-// 励まして
+// 少し休憩
 
 import { useState } from "react";
 import Link from "next/link";
@@ -6,9 +6,9 @@ import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 import React from "react";
 
-export default function CheerUp() {
+export default function rest () {
   //名言のリスト
-  const CheerUpLists = [
+  const lists = [
     {
       name: "スティーブ\nジョブズ",
       value:
@@ -20,6 +20,10 @@ export default function CheerUp() {
     },
     {
       name: "スティーブ\nジョブズ",
+      value: "重要なことに集中する唯一の方法は「ノー」と言うことだ",
+    },
+    {
+      name: "スティーブ\nジョブズ",
       value:
         "顧客はより幸せでよりよい人生を夢見ている。製品を売ろうとするのではなく、彼らの人生を豊かにするのだ",
     },
@@ -27,7 +31,11 @@ export default function CheerUp() {
       name: "スティーブ\nジョブズ",
       value: "ハングリーであれ。愚か者であれ。",
     },
-
+    {
+      name: "ティム\nクック",
+      value:
+        "盲目の人にとっても、私達のデバイスが使いやすいものになるように働いている時、私は投資利益率のことなんて全く考えていない",
+    },
     {
       name: "ティム\nクック",
       value:
@@ -38,7 +46,11 @@ export default function CheerUp() {
       value:
         "ジョブズのようであれという目標を、私は決して持っていない。なぜなら、私は私でしかあり得ないから",
     },
-
+    {
+      name: "ティム\nクック",
+      value:
+        "ジョブズのようであれという目標を、私は決して持っていない。なぜなら、私は私でしかあり得ないから",
+    },
     {
       name: "ティム\nクック",
       value: "あなたという人間は、あなたが作り上げたもので決まる",
@@ -55,6 +67,23 @@ export default function CheerUp() {
     {
       name: "ラリー\nペイジ",
       value: "大胆な挑戦の末での失敗ならば、問題ではない",
+    },
+    {
+      name: "ラリー\nペイジ",
+      value: "イノベーションは小さなグループから起こる",
+    },
+    {
+      name: "ラリー\nペイジ",
+      value: "夢を持つなら、とびきり野心的な方がいい。その方が前に進めるから",
+    },
+    {
+      name: "セルゲイ\nミハイロヴィッチ\nブリン",
+      value: "あまりにも多くのルールを採用すると革新は阻害されてしまう。",
+    },
+    {
+      name: "セルゲイ\nミハイロヴィッチ\nブリン",
+      value:
+        "アイデアを思いつくことは何か素晴らしいものを作ることの中で最も大事な部分ではありません。一番大事なのは実行することです。",
     },
     {
       name: "セルゲイ\nミハイロヴィッチ\nブリン",
@@ -74,6 +103,14 @@ export default function CheerUp() {
     },
     {
       name: "マーク\nザッカーバーグ",
+      value: "同じTシャツしか着ない",
+    },
+    {
+      name: "マーク\nザッカーバーグ",
+      value: "世界の富豪でありながら、給料は年間1ドル",
+    },
+    {
+      name: "マーク\nザッカーバーグ",
       value:
         "私たちの世代の挑戦は新しい仕事を作り出すことだけでなく、新しい目的意識を作り出すことだ",
     },
@@ -90,7 +127,10 @@ export default function CheerUp() {
       name: "マーク\nザッカーバーグ",
       value: "完璧であることより、まず終わらせることが重要だ",
     },
-
+    {
+      name: "マーク\nザッカーバーグ",
+      value: "最大のリスクは、リスクを取らないことだ",
+    },
     {
       name: "マーク\nザッカーバーグ",
       value: "一番大事なのは、まずはやってみようということ。",
@@ -98,6 +138,45 @@ export default function CheerUp() {
     {
       name: "マーク\nザッカーバーグ",
       value: "お金がないならアイデアを出せ",
+    },
+    {
+      name: "ジェフ\nベゾス",
+      value: "変わらないものを軸に戦略を立てよ。",
+    },
+    {
+      name: "ジェフ\nベゾス",
+      value: "顧客に執着せよ",
+    },
+    {
+      name: "ジェフ\nベゾス",
+      value: "我々は長期間にわたって誤解されることを厭わない。",
+    },
+    {
+      name: "ジェフ\nベゾス",
+      value:
+        "会社には2種類ある。高く売るために努力する会社と、安く売るために努力する会社だ。我々は後者になる。",
+    },
+    {
+      name: "ジェフ\nベゾス",
+      value: "顧客のニーズから逆算せよ。",
+    },
+    {
+      name: "ジェフ\nベゾス",
+      value:
+        "アマゾンの企業文化は「調和」と「情熱」だが、いざどちらかを選ぶとなれば、我々は「情熱」をとる。",
+    },
+    {
+      name: "ジェフ\nベゾス",
+      value: "発明家になりたければ失敗を恐れるな。",
+    },
+    {
+      name: "ジェフ\nベゾス",
+      value:
+        "自分のもっている時間を100%とすると、かつては30%をサービスの構築に、残りの70％をプレゼンに充てたが、時代は変わった。これからは逆だ。",
+    },
+    {
+      name: "ジェフ\nベゾス",
+      value: "誰もがコールセンターで働けるようにならなければいけない。",
     },
     {
       name: "ビル\nゲイツ",
@@ -109,7 +188,11 @@ export default function CheerUp() {
       value:
         "毎日毎日「勝ちたい」という気持ちで出社しなければならない。切羽詰まったときにこそ、最高の能力を発揮できる",
     },
-
+    {
+      name: "ビル\nゲイツ",
+      value:
+        "一心不乱に働くこと、ベストを尽くすことが嫌だというなら、ここは君のいるべき職場ではない",
+    },
     {
       name: "ビル\nゲイツ",
       value: "成功を祝うのはいいが、もっと大切なのは失敗から学ぶことだ",
@@ -118,6 +201,11 @@ export default function CheerUp() {
       name: "ビル\nゲイツ",
       value:
         "反対があるのは健全なこと。本当に力のあるアイデアか試されるわけだから",
+    },
+    {
+      name: "ビル\nゲイツ",
+      value:
+        "私は起業家という言葉をいつも拒否してきた。「会社を始めよう、何の会社にしようか」では決して成功しない",
     },
     {
       name: "ビル\nゲイツ",
@@ -140,11 +228,11 @@ export default function CheerUp() {
   ];
 
   //ランダムな数字を出して、数字を元に名言を出す
-  const [number, setNumber] = useState(Math.floor(Math.random() * 28));
-    console.log(CheerUpLists);
+  const [number, setNumber] = useState(Math.floor(Math.random() * 49));
+  console.log(lists);
 
-  const name = CheerUpLists[number].name;
-  const content = CheerUpLists[number].value;
+  const name = lists[number].name;
+  const content = lists[number].value;
   // このページでリロードするとエラーになる
 
   return (
