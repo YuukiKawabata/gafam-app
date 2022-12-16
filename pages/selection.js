@@ -8,23 +8,23 @@ export default function selection() {
       <Title text="今の気持ちは？" />
 
       <div className="h-3/6 text-center text-lg tracking-widest flex flex-wrap justify-center items-center sm:text-2xl">
-        <Link href="/answer">
-          <button className="selection-button block">頑張る</button>
+        <Link href="/makeEffort">
+          <button className="selection-button block">頑張りたい</button>
+        </Link>
+        <Link href="/cheerUp">
+          <button className="selection-button block">励まして</button>
+        </Link>
+        <Link href="/pushYourBack">
+          <button className="selection-button block">行くぞ！！</button>
+        </Link>
+        <Link href="/tired">
+          <button className="selection-button block">疲れたよ。。</button>
         </Link>
         <Link href="/answer">
-          <button className="selection-button block">test</button>
+          <button className="selection-button block">少し休憩</button>
         </Link>
         <Link href="/answer">
-          <button className="selection-button block">test</button>
-        </Link>
-        <Link href="/answer">
-          <button className="selection-button block">test</button>
-        </Link>
-        <Link href="/answer">
-          <button className="selection-button block">test</button>
-        </Link>
-        <Link href="/answer">
-          <button className="selection-button block">test</button>
+          <button className="selection-button block">落ち着きたい</button>
         </Link>
       </div>
 

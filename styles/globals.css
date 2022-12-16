@@ -8,7 +8,7 @@ body {
   background: linear-gradient(180deg, #090833 0%, rgba(28, 4, 58, 0.65) 100%);
   font-family: serif;
   heigth: 100dvh;
-  width:100vdh;
+  width: 100vdh;
 }
 
 a {
@@ -30,9 +30,9 @@ a {
   justify-content: center;
 }
 .selection-button {
-  margin: 1rem 2rem;
-  width: 5rem;
-  heigth: 2rem;
+  padding: 1rem;
+  margin: 1rem 1rem;
+  width: 9rem;
   border: 2px solid;
   border-radius: 40px;
 }
