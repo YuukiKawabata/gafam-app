@@ -6,7 +6,7 @@ import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 import React from "react";
 
-export default function LetsGo () {
+export default function LetsGo() {
   //名言のリスト
   const lists = [
     {
@@ -22,29 +22,16 @@ export default function LetsGo () {
       name: "スティーブ\nジョブズ",
       value: "重要なことに集中する唯一の方法は「ノー」と言うことだ",
     },
-    {
-      name: "スティーブ\nジョブズ",
-      value:
-        "顧客はより幸せでよりよい人生を夢見ている。製品を売ろうとするのではなく、彼らの人生を豊かにするのだ",
-    },
+
     {
       name: "スティーブ\nジョブズ",
       value: "ハングリーであれ。愚か者であれ。",
     },
-    {
-      name: "ティム\nクック",
-      value:
-        "盲目の人にとっても、私達のデバイスが使いやすいものになるように働いている時、私は投資利益率のことなんて全く考えていない",
-    },
+
     {
       name: "ティム\nクック",
       value:
         "彼から受けた最も偉大な教訓は、人生の楽しみは、冒険の中にあるということ",
-    },
-    {
-      name: "ティム\nクック",
-      value:
-        "ジョブズのようであれという目標を、私は決して持っていない。なぜなら、私は私でしかあり得ないから",
     },
     {
       name: "ティム\nクック",
@@ -89,10 +76,7 @@ export default function LetsGo () {
       name: "セルゲイ\nミハイロヴィッチ\nブリン",
       value: "厳しい時代こそ最高のものが生み出される。",
     },
-    {
-      name: "ミハイロヴィッチ\nブリン",
-      value: "人々は常に新しいものを求めます。",
-    },
+
     {
       name: "セルゲイ\nミハイロヴィッチ\nブリン",
       value: "今の時代に成功する人は非常に洗練されていなければなりません。",
@@ -101,14 +85,7 @@ export default function LetsGo () {
       name: "セルゲイ\nミハイロヴィッチ\nブリン",
       value: "成功はシンプルから生まれる。",
     },
-    {
-      name: "マーク\nザッカーバーグ",
-      value: "同じTシャツしか着ない",
-    },
-    {
-      name: "マーク\nザッカーバーグ",
-      value: "世界の富豪でありながら、給料は年間1ドル",
-    },
+
     {
       name: "マーク\nザッカーバーグ",
       value:
@@ -136,26 +113,14 @@ export default function LetsGo () {
       value: "一番大事なのは、まずはやってみようということ。",
     },
     {
-      name: "マーク\nザッカーバーグ",
-      value: "お金がないならアイデアを出せ",
-    },
-    {
       name: "ジェフ\nベゾス",
       value: "変わらないものを軸に戦略を立てよ。",
     },
     {
       name: "ジェフ\nベゾス",
-      value: "顧客に執着せよ",
-    },
-    {
-      name: "ジェフ\nベゾス",
       value: "我々は長期間にわたって誤解されることを厭わない。",
     },
-    {
-      name: "ジェフ\nベゾス",
-      value:
-        "会社には2種類ある。高く売るために努力する会社と、安く売るために努力する会社だ。我々は後者になる。",
-    },
+
     {
       name: "ジェフ\nベゾス",
       value: "顧客のニーズから逆算せよ。",
@@ -172,12 +137,9 @@ export default function LetsGo () {
     {
       name: "ジェフ\nベゾス",
       value:
-        "自分のもっている時間を100%とすると、かつては30%をサービスの構築に、残りの70％をプレゼンに充てたが、時代は変わった。これからは逆だ。",
+        "自分のもっている時間を100%とすると、かつては30%をサービスの構築に、残りの70%をプレゼンに充てたが、時代は変わった。これからは逆だ。",
     },
-    {
-      name: "ジェフ\nベゾス",
-      value: "誰もがコールセンターで働けるようにならなければいけない。",
-    },
+
     {
       name: "ビル\nゲイツ",
       value:
@@ -218,17 +180,13 @@ export default function LetsGo () {
     },
     {
       name: "ビル\nゲイツ",
-      value: "人間にはものを考える時間が必要だ",
-    },
-    {
-      name: "ビル\nゲイツ",
       value:
         "変わることがなければ成長することもない。成長することがなければ真に生きていない",
     },
   ];
 
   //ランダムな数字を出して、数字を元に名言を出す
-  const [number, setNumber] = useState(Math.floor(Math.random() * 49));
+  const [number, setNumber] = useState(Math.floor(Math.random() * 38));
   console.log(lists);
 
   const name = lists[number].name;

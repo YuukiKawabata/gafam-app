@@ -7,7 +7,7 @@ import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 import React from "react";
 
-export default function makeEffort() {
+export default function MakeEffort () {
   //名言のリスト
   const makeEffortLists = [
     {
