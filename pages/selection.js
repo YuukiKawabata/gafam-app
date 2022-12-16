@@ -9,7 +9,7 @@ export default function selection() {
 
       <div className="h-3/6 text-center text-lg tracking-widest flex flex-wrap justify-center items-center sm:text-2xl">
         <Link href="/answer">
-          <button className="selection-button block">test</button>
+          <button className="selection-button block">頑張る</button>
         </Link>
         <Link href="/answer">
           <button className="selection-button block">test</button>
