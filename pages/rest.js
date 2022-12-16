@@ -6,7 +6,7 @@ import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 import React from "react";
 
-export default function rest () {
+export default function Rest () {
   //名言のリスト
   const lists = [
     {
@@ -15,7 +15,7 @@ export default function rest () {
         "もし今日が人生最後の日だとしたら、今やろうとしていることは本当に自分のやりたいことだろうか？",
     },
     {
-      name: "スティーブ\nジョブズ",
+      name: "スティーブ\nジョブズ"
       value: "一つのことを、一生やり続けられると確信する日がくる",
     },
     {
