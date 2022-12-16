@@ -7,7 +7,7 @@ export default function selection() {
     <div className="h-screen w-screen justify-center items-center">
       <Title text="今の気持ちは？" />
 
-      <div className="h-4/6 text-center leading-10 text-lg tracking-widest flex flex-wrap justify-center items-center sm:text-2xl">
+      <div className="h-3/6 text-center text-lg tracking-widest flex flex-wrap justify-center items-center sm:text-2xl">
         <Link href="/answer">
           <button className="selection-button block">test</button>
         </Link>

@@ -18,9 +18,9 @@ a {
 .button {
   width: 80%;
   border-radius: 40px;
-  padding: 1rem 4rem;
-  margin: 2rem auto;
-  border: 1px solid;
+  padding: 1rem;
+  margin: 0 auto;
+  border: 3px solid;
 }
 
 .selections-button {
@@ -30,9 +30,9 @@ a {
   justify-content: center;
 }
 .selection-button {
-  margin: 3rem 2rem;
+  margin: 1rem 2rem;
   width: 5rem;
   heigth: 2rem;
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 40px;
 }

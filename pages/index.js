@@ -15,7 +15,7 @@ export default function Home() {
 
       <Title
         text="ビッグ・テックを
-      愛する人に捧ぐ"
+        愛する人に"
       />
 
       <Inside />
