@@ -19,7 +19,8 @@ a {
   width: 80%;
   border-radius: 40px;
   padding: 1rem;
-  margin: 2rem auto;
+  margin: 0 auto;
+  margin-top: 3rem;
   border: 3px solid;
 }
 
