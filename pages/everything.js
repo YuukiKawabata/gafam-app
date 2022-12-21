@@ -6,7 +6,7 @@ import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 import React from "react";
 
-export default function CalmDown() {
+export default function Everything() {
   //名言のリスト
   const lists = [
     {

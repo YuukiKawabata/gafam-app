@@ -7,6 +7,7 @@ export default function selection() {
     <div className="h-screen w-screen justify-center items-center">
       <Title text="今の気持ちは？" />
 
+
       <div className="h-3/6 text-center text-lg tracking-widest flex flex-wrap justify-center items-center sm:text-2xl">
         <Link href="/makeEffort">
           <button className="selection-button block">頑張りたい</button>
@@ -23,8 +24,8 @@ export default function selection() {
         <Link href="/rest">
           <button className="selection-button block">少し休憩</button>
         </Link>
-        <Link href="/calmDown">
-          <button className="selection-button block">落ち着きたい</button>
+        <Link href="/everything">
+          <button className="selection-button block">なんでも</button>
         </Link>
       </div>
 

@@ -111,7 +111,7 @@ export default function Tired() {
   ];
 
   //ランダムな数字を出して、数字を元に名言を出す
-  const [number, setNumber] = useState(Math.floor(Math.random() * 49));
+  const [number, setNumber] = useState(Math.floor(Math.random() * 21));
   console.log(lists);
 
   const name = lists[number].name;
