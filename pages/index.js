@@ -14,8 +14,7 @@ export default function Home() {
       </Head>
 
       <Title
-        text="ビッグ・テックを
-        愛する人に"
+        text="ビッグ・テックを愛する人へ"
       />
 
       <Inside />
