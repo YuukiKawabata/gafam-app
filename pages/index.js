@@ -9,7 +9,7 @@ export default function Home() {
     <div className="h-screen w-screen justify-center items-center">
       <Head>
         <title>ビッグ・テック名言</title>
-        <meta name="description" content="" />
+        <meta name="description" content="心に響く名言で前に進もう" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
