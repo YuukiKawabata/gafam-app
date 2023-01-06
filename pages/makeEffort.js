@@ -64,7 +64,7 @@ export default function MakeEffort () {
       value: "厳しい時代こそ最高のものが生み出される。",
     },
     {
-      name: "ミハイロヴィッチ\nブリン",
+      name: "セルゲイ\nミハイロヴィッチ\nブリン",
       value: "人々は常に新しいものを求めます。",
     },
     {
