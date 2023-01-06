@@ -9,6 +9,7 @@ body {
   font-family: serif;
   heigth: 100dvh;
   width: 100vdh;
+  overflow: hidden;
 }
 
 a {
