@@ -9,11 +9,11 @@ export default function Home() {
   return (
     <div className="h-screen w-screen justify-center items-center">
       <Head>
-        <title>ビッグ・テック名言</title>
+        <title>ビッグ・テックの名言</title>
         <meta name="description" content="心に響く名言で前に進もう" />
       </Head>
 
-      <Title text={`ビッグ・テックの\n名言アプリ`} />
+      <Title text={`ビッグ・テック\n名言`} />
 
       <Inside />
 
