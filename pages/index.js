@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="description" content="心に響く名言で前に進もう" />
       </Head>
 
-      <Title text="ビッグ・テックを愛する人へ" />
+      <Title text="ビッグ・テック名言" />
 
       <Inside />
 
