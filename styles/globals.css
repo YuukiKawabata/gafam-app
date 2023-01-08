@@ -4,7 +4,7 @@
 
 html,
 body {
-  color: white;
+  color: #aaaaaa;
   background: linear-gradient(180deg, #090833 0%, rgba(28, 4, 58, 0.65) 100%);
   font-family: serif;
   heigth: 100dvh;
@@ -16,26 +16,29 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
 .button {
-  width: 60%;
-  heigth:60%;
+  width: 50%;
+  heigth: 60%;
   border-radius: 30px;
   padding: 0.5rem;
+
   margin: 0 auto;
-  margin-top: 2rem ;
+  margin-top: 2rem;
+
   border: 2px solid;
 }
 
 .selections-button {
-  padding: 1rem;
   margin: 0 auto;
   align-items: center;
   justify-content: center;
 }
 .selection-button {
   padding: 0.5rem;
-  margin: 0.5rem 1rem;
-  width: 8rem;
+  margin: 0.4rem 1rem;
+  width: 10rem;
+
   border: 1px solid;
   border-radius: 40px;
 }

@@ -28,7 +28,7 @@ export default function selection() {
           <button className="selection-button block">行くぞ！！</button>
         </Link>
         <Link href="/tired">
-          <button className="selection-button block">疲れたよ。。</button>
+          <button className="selection-button block">疲れたよ。</button>
         </Link>
         <Link href="/rest">
           <button className="selection-button block">少し休憩</button>
