@@ -4,14 +4,14 @@ import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 
 export default function selection() {
-  const selectionLists = [
-    { button: "頑張りたい" },
-    { button: "励まして" },
-    { button: "行くぞ！！" },
-    { button: "疲れたよ。。" },
-    { button: "少し休憩" },
-    { button: "なんでも" },
-  ];
+  // const selectionLists = [
+  //   { button: "頑張りたい" },
+  //   { button: "励まして" },
+  //   { button: "行くぞ！！" },
+  //   { button: "疲れたよ。。" },
+  //   { button: "少し休憩" },
+  //   { button: "なんでも" },
+  // ];
 
   return (
     <div className="h-screen w-screen justify-center items-center">
@@ -38,9 +38,7 @@ export default function selection() {
         </Link>
       </div>
 
-      <Link href="/">
-        <Button text="戻る" />
-      </Link>
+        <Button text="戻る" href="/" />
     </div>
   );
 }

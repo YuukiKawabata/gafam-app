@@ -1,13 +1,11 @@
 // 頑張りたい
 
-
 import { useState } from "react";
-import Link from "next/link";
 import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 import React from "react";
 
-export default function MakeEffort () {
+export default function MakeEffort() {
   //名言のリスト
   const makeEffortLists = [
     {
@@ -135,9 +133,7 @@ export default function MakeEffort () {
         <p>『{content}』</p>
       </div>
 
-      <Link href="selection">
-        <Button text="戻る" />
-      </Link>
+      <Button text="戻る" href="/selection" />
     </div>
   );
 }

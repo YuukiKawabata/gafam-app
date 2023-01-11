@@ -1,7 +1,6 @@
 // 励まして
 
 import { useState } from "react";
-import Link from "next/link";
 import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 import React from "react";
@@ -141,7 +140,7 @@ export default function CheerUp() {
 
   //ランダムな数字を出して、数字を元に名言を出す
   const [number, setNumber] = useState(Math.floor(Math.random() * 28));
-    console.log(CheerUpLists);
+  console.log(CheerUpLists);
 
   const name = CheerUpLists[number].name;
   const content = CheerUpLists[number].value;
@@ -156,9 +155,7 @@ export default function CheerUp() {
         <p>『{content}』</p>
       </div>
 
-      <Link href="selection">
-        <Button text="戻る" />
-      </Link>
+      <Button text="戻る" href="/selection" />
     </div>
   );
 }

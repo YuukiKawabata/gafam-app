@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
+// import Link from "next/link";
 import React from "react";
 import { Button } from "../components/Button";
 import { Inside } from "../components/Inside";
@@ -17,9 +17,9 @@ export default function Home() {
 
       <Inside />
 
-      <Link href="/selection">
-        <Button text="始める" />
-      </Link>
+      {/* <Link href="/selection"> */}
+        <Button text="始める"  href="/selection"/>
+      {/* </Link> */}
     </div>
   );
 }

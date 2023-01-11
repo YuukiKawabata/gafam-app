@@ -1,7 +1,6 @@
 // 少し休憩
 
 import { useState } from "react";
-import Link from "next/link";
 import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 import React from "react";
@@ -100,9 +99,7 @@ export default function Rest() {
         <p>『{content}』</p>
       </div>
 
-      <Link href="selection">
-        <Button text="戻る" />
-      </Link>
+      <Button text="戻る" href="/selection" />
     </div>
   );
 }

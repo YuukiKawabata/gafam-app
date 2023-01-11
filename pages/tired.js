@@ -1,7 +1,6 @@
 // 疲れたよ。。
 
 import { useState } from "react";
-import Link from "next/link";
 import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 import React from "react";
@@ -116,7 +115,7 @@ export default function Tired() {
 
   const name = lists[number].name;
   const content = lists[number].value;
-  
+
   return (
     <div className="h-screen w-screen justify-center items-center">
       <div className="h-2/6 p-6 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
@@ -126,9 +125,7 @@ export default function Tired() {
         <p>『{content}』</p>
       </div>
 
-      <Link href="selection">
-        <Button text="戻る" />
-      </Link>
+      <Button text="戻る" href="/selection" />
     </div>
   );
 }
