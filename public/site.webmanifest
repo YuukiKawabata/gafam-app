@@ -9,6 +9,6 @@
         }
     ],
     "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "background_color": "linear-gradient(180deg, #090833 0%, rgba(28, 4, 58, 0.65) 100%)",
     "display": "standalone"
 }
