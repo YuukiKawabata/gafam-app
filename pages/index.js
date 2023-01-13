@@ -1,9 +1,9 @@
 import Head from "next/head";
-// import Link from "next/link";
 import React from "react";
 import { Button } from "../components/Button";
 import { Inside } from "../components/Inside";
 import { Title } from "../components/Title";
+import { Share } from "../components/Share";
 
 export default function Home() {
   return (
@@ -13,13 +13,11 @@ export default function Home() {
         <meta name="description" content="心に響く名言で前に進もう" />
       </Head>
 
-      <Title text={`ビッグ・テック\n名言`} />
+      <Title text={`ビッグ・テック名言`} />
 
       <Inside />
-
-      {/* <Link href="/selection"> */}
-        <Button text="始める"  href="/selection"/>
-      {/* </Link> */}
+      <Button text="始める" href="/selection" />
+      <Share />
     </div>
   );
 }

@@ -226,8 +226,6 @@ export default function Answer() {
 
   //ランダムな数字を出して、数字を元に名言を出す
   const [number, setNumber] = useState(Math.floor(Math.random() * 49));
-  console.log(lists);
-
   const name = lists[number].name;
   const content = lists[number].value;
   // このページでリロードするとエラーになる
@@ -237,7 +235,7 @@ export default function Answer() {
       <div className="h-2/6 p-6 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
         <Title text={name} />
       </div>
-      <div className="h-3/6 p-6 text-center leading-10 text-xl tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
+      <div className="h-2/6 p-6 text-center leading-10 text-xl tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
         <p>『{content}』</p>
       </div>
 

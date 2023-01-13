@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 import React from "react";
+import { Share } from "../components/Share";
 
 export default function LetsGo() {
   //名言のリスト
@@ -194,14 +195,13 @@ export default function LetsGo() {
 
   return (
     <div className="h-screen w-screen justify-center items-center">
-      <div className="h-2/6 p-6 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
-        <Title text={name} />
-      </div>
-      <div className="h-3/6 p-6 text-center leading-10 text-xl tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
+      <Title text={name} />
+      <div className="h-2/6 p-6 text-center leading-10 text-xl tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
         <p>『{content}』</p>
       </div>
 
-        <Button text="戻る" href="/selection" />
+      <Button text="戻る" href="/selection" />
+      <Share />
     </div>
   );
 }

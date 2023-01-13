@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { Button } from "../components/Button";
 import { Title } from "../components/Title";
+import { Share } from "../components/Share";
 
 export default function selection() {
   // const selectionLists = [
@@ -17,7 +18,7 @@ export default function selection() {
     <div className="h-screen w-screen justify-center items-center">
       <Title text="今の気持ちは？" />
 
-      <div className="h-3/6 text-center text-lg tracking-widest flex flex-wrap justify-center items-center sm:text-2xl">
+      <div className="h-2/6 text-base text-center tracking-widest flex flex-wrap justify-center items-center sm:text-2xl">
         <Link href="/makeEffort">
           <button className="selection-button block">頑張りたい</button>
         </Link>
@@ -33,12 +34,13 @@ export default function selection() {
         <Link href="/rest">
           <button className="selection-button block">少し休憩</button>
         </Link>
-        <Link href="/everything">
+        {/* <Link href="/everything">
           <button className="selection-button block">なんでも</button>
-        </Link>
+        </Link> */}
       </div>
 
-        <Button text="戻る" href="/" />
+      <Button text="戻る" href="/" />
+      <Share />
     </div>
   );
 }

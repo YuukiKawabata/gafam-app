@@ -4,7 +4,8 @@ import React from "react";
 
 export function Button(props) {
   return (
-    <div className="h-1/6 justify-center items-center text-base sm:text-4xl">
+    <div className="mt-5 whitespace-pre-wrap leading-loose font-black h-1/6 p-5 text-base text-center tracking-wider  justify-center items-center  sm:text-4xl ">
+
       <Link href={`${props.href}`}>
         <button className="button block ">{props.text}</button>
       </Link>
