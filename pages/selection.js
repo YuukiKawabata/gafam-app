@@ -34,9 +34,9 @@ export default function selection() {
         <Link href="/rest">
           <button className="selection-button block">少し休憩</button>
         </Link>
-        {/* <Link href="/everything">
+        <Link href="/everything">
           <button className="selection-button block">なんでも</button>
-        </Link> */}
+        </Link>
       </div>
 
       <Button text="戻る" href="/" />
