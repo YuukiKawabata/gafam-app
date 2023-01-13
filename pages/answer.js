@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Button } from "../components/Button";
 import { Title } from "../components/Title";
 import React from "react";
+import { Share } from "../components/Share";
+import { Img } from "../components/img";
 
 export default function Answer() {
   //名言のリスト
@@ -10,23 +12,29 @@ export default function Answer() {
       name: "スティーブ\nジョブズ",
       value:
         "もし今日が人生最後の日だとしたら、今やろうとしていることは本当に自分のやりたいことだろうか？",
+      img: "/images/Steve_Jobs.webp",
+      feeling: "answer"
     },
     {
       name: "スティーブ\nジョブズ",
       value: "一つのことを、一生やり続けられると確信する日がくる",
+      img: "/images/Steve_Jobs.webp",
     },
     {
       name: "スティーブ\nジョブズ",
       value: "重要なことに集中する唯一の方法は「ノー」と言うことだ",
+      img: "/images/Steve_Jobs.webp",
     },
     {
       name: "スティーブ\nジョブズ",
       value:
         "顧客はより幸せでよりよい人生を夢見ている。製品を売ろうとするのではなく、彼らの人生を豊かにするのだ",
+      img: "/images/Steve_Jobs.webp",
     },
     {
       name: "スティーブ\nジョブズ",
       value: "ハングリーであれ。愚か者であれ。",
+      img: "/images/Steve_Jobs.webp",
     },
     {
       name: "ティム\nクック",
@@ -225,21 +233,29 @@ export default function Answer() {
   ];
 
   //ランダムな数字を出して、数字を元に名言を出す
-  const [number, setNumber] = useState(Math.floor(Math.random() * 49));
+  const [number, setNumber] = useState(Math.floor(Math.random() * 5));
   const name = lists[number].name;
   const content = lists[number].value;
+  const img = lists[number].img;
+  console.log(img);
   // このページでリロードするとエラーになる
 
   return (
     <div className="h-screen w-screen justify-center items-center">
-      <div className="h-2/6 p-6 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
-        <Title text={name} />
+      <div className="flex h-2/6 text-center justify-center items-center">
+        <div className="w-1/3 flex text-center justify-center items-center">
+          <Img img={img} />
+        </div>
+        <div className="w-2/3 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
+          <Title text={name} />
+        </div>
       </div>
       <div className="h-2/6 p-6 text-center leading-10 text-xl tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
         <p>『{content}』</p>
       </div>
 
       <Button text="戻る" href="/selection" />
+      <Share />
     </div>
   );
 }
