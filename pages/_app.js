@@ -1,7 +1,6 @@
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-
   const lists = [
     {
       name: "スティーブ\nジョブズ",
@@ -34,20 +33,20 @@ function MyApp({ Component, pageProps }) {
     {
       name: "ラリー\nペイジ",
       value: "アイデアに価値はない。それを実行できてはじめて価値になる",
-      img: "/images/Larry_page.jpg",
+      img: "/images/Larry_Page.jpg",
       feeling: "tired",
     },
     {
       name: "ラリー\nペイジ",
       value: "大胆な挑戦の末での失敗ならば、問題ではない",
-      img: "/images/Larry_page.jpg",
+      img: "/images/Larry_Page.jpg",
       feeling: "tired",
     },
 
     {
       name: "ラリー\nペイジ",
       value: "夢を持つなら、とびきり野心的な方がいい。その方が前に進めるから",
-      img: "/images/Larry_page.jpg",
+      img: "/images/Larry_Page.jpg",
       feeling: "tired",
     },
     {
@@ -146,7 +145,7 @@ function MyApp({ Component, pageProps }) {
     },
   ];
 
-  return <Component {...pageProps } />;
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;

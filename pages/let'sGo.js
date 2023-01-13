@@ -61,31 +61,31 @@ export default function LetsGo() {
       name: "ラリー\nペイジ",
       value:
         "「そんなバカなことはできない」と誰もが思うことならば、競争相手はいないも同然だ",
-      img: "/images/Larry_page.jpg",
+      img: "/images/Larry_Page.jpg",
       feeling: "lets",
     },
     {
       name: "ラリー\nペイジ",
       value: "アイデアに価値はない。それを実行できてはじめて価値になる",
-      img: "/images/Larry_page.jpg",
+      img: "/images/Larry_Page.jpg",
       feeling: "lets",
     },
     {
       name: "ラリー\nペイジ",
       value: "大胆な挑戦の末での失敗ならば、問題ではない",
-      img: "/images/Larry_page.jpg",
+      img: "/images/Larry_Page.jpg",
       feeling: "lets",
     },
     {
       name: "ラリー\nペイジ",
       value: "イノベーションは小さなグループから起こる",
-      img: "/images/Larry_page.jpg",
+      img: "/images/Larry_Page.jpg",
       feeling: "lets",
     },
     {
       name: "ラリー\nペイジ",
       value: "夢を持つなら、とびきり野心的な方がいい。その方が前に進めるから",
-      img: "/images/Larry_page.jpg",
+      img: "/images/Larry_Page.jpg",
       feeling: "lets",
     },
     {

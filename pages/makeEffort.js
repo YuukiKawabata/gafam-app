@@ -59,19 +59,19 @@ export default function MakeEffort() {
       name: "ラリー\nペイジ",
       value:
         "「そんなバカなことはできない」と誰もが思うことならば、競争相手はいないも同然だ",
-      img: "/images/Larry_page.jpg",
+      img: "/images/Larry_Page.jpg",
       feeling: "make",
     },
     {
       name: "ラリー\nペイジ",
       value: "アイデアに価値はない。それを実行できてはじめて価値になる",
-      img: "/images/Larry_page.jpg",
+      img: "/images/Larry_Page.jpg",
       feeling: "make",
     },
     {
       name: "ラリー\nペイジ",
       value: "大胆な挑戦の末での失敗ならば、問題ではない",
-      img: "/images/Larry_page.jpg",
+      img: "/images/Larry_Page.jpg",
       feeling: "make",
     },
     {
