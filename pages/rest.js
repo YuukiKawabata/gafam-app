@@ -46,19 +46,19 @@ export default function Rest() {
       name: "ティム\nクック",
       value:
         "彼から受けた最も偉大な教訓は、人生の楽しみは、冒険の中にあるということ",
-      img: "/images/thim.webp",
+      img: "/images/tim.webp",
       feeling: "rest",
     },
     {
       name: "ティム\nクック",
       value: "あなたという人間は、あなたが作り上げたもので決まる",
-      img: "/images/thim.webp",
+      img: "/images/tim.webp",
       feeling: "rest",
     },
     {
       name: "セルゲイ\nミハイロヴィッチ\nブリン",
       value: "成功はシンプルから生まれる。",
-      img: "/images/Sergey.jpg",
+      img: "/images/Brin.jpg",
       feeling: "rest",
     },
     {
@@ -127,11 +127,11 @@ export default function Rest() {
 
   return (
     <div className="h-screen w-screen justify-center items-center">
-        <div className="flex h-2/6 text-center justify-center items-center">
-        <div className="w-1/3 flex text-center justify-center items-center">
+      <div className="flex h-2/6 text-center justify-center items-center">
+        <div className="flex text-center justify-center items-center">
           <Img img={img} />
         </div>
-        <div className="w-2/3 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
+        <div className="leading-8 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
           <Title text={name} />
         </div>
       </div>

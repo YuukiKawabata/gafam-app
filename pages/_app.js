@@ -19,14 +19,14 @@ function MyApp({ Component, pageProps }) {
       name: "ティム\nクック",
       value:
         "彼から受けた最も偉大な教訓は、人生の楽しみは、冒険の中にあるということ",
-      img: "/images/thim.webp",
+      img: "/images/tim.webp",
       feeling: "tired",
     },
 
     {
       name: "ティム\nクック",
       value: "あなたという人間は、あなたが作り上げたもので決まる",
-      img: "/images/thim.webp",
+      img: "/images/tim.webp",
       feeling: "tired",
     },
 
@@ -52,7 +52,7 @@ function MyApp({ Component, pageProps }) {
     {
       name: "セルゲイ\nミハイロヴィッチ\nブリン",
       value: "厳しい時代こそ最高のものが生み出される。",
-      img: "/images/Sergey.jpg",
+      img: "/images/Brin.jpg",
       feeling: "tired",
     },
     {

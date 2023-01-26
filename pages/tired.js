@@ -28,14 +28,14 @@ export default function Tired() {
       name: "ティム\nクック",
       value:
         "彼から受けた最も偉大な教訓は、人生の楽しみは、冒険の中にあるということ",
-      img: "/images/thim.webp",
+      img: "/images/tim.webp",
       feeling: "tired",
     },
 
     {
       name: "ティム\nクック",
       value: "あなたという人間は、あなたが作り上げたもので決まる",
-      img: "/images/thim.webp",
+      img: "/images/tim.webp",
       feeling: "tired",
     },
 
@@ -61,7 +61,7 @@ export default function Tired() {
     {
       name: "セルゲイ\nミハイロヴィッチ\nブリン",
       value: "厳しい時代こそ最高のものが生み出される。",
-      img: "/images/Sergey.jpg",
+      img: "/images/Brin.jpg",
       feeling: "tired",
     },
     {
@@ -161,9 +161,8 @@ export default function Tired() {
 
   return (
     <div className="h-screen w-screen justify-center items-center">
-      {/* <Card img={img} text={name} content={content} className="flex text-center justify-center items-center h-4/6" /> */}
-      <div className="card flex h-2/6 text-center justify-center items-center">
-        <div className=" flex text-center justify-center items-center">
+      <div className="flex h-2/6 text-center justify-center items-center">
+        <div className="flex text-center justify-center items-center">
           <Img img={img} />
         </div>
         <div className="leading-8 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
@@ -173,7 +172,7 @@ export default function Tired() {
 
       <div className="h-2/6 p-6 text-center leading-10 text-xl tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
         <p>『{content}』</p>
-      </div>  
+      </div>
 
       <Button text="戻る" href="/selection" />
       <Share />

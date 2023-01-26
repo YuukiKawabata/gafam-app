@@ -243,10 +243,10 @@ export default function Answer() {
   return (
     <div className="h-screen w-screen justify-center items-center">
       <div className="flex h-2/6 text-center justify-center items-center">
-        <div className="w-1/3 flex text-center justify-center items-center">
+        <div className="flex text-center justify-center items-center">
           <Img img={img} />
         </div>
-        <div className="w-2/3 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
+        <div className="leading-8 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
           <Title text={name} />
         </div>
       </div>

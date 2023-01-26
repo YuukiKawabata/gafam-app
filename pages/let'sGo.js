@@ -41,20 +41,20 @@ export default function LetsGo() {
       name: "ティム\nクック",
       value:
         "彼から受けた最も偉大な教訓は、人生の楽しみは、冒険の中にあるということ",
-      img: "/images/thim.webp",
+      img: "/images/tim.webp",
       feeling: "lets",
     },
     {
       name: "ティム\nクック",
       value:
         "ジョブズのようであれという目標を、私は決して持っていない。なぜなら、私は私でしかあり得ないから",
-      img: "/images/thim.webp",
+      img: "/images/tim.webp",
       feeling: "lets",
     },
     {
       name: "ティム\nクック",
       value: "あなたという人間は、あなたが作り上げたもので決まる",
-      img: "/images/thim.webp",
+      img: "/images/tim.webp",
       feeling: "lets",
     },
     {
@@ -91,33 +91,33 @@ export default function LetsGo() {
     {
       name: "セルゲイ\nミハイロヴィッチ\nブリン",
       value: "あまりにも多くのルールを採用すると革新は阻害されてしまう。",
-      img: "/images/Sergey.jpg",
+      img: "/images/Brin.jpg",
       feeling: "lets",
     },
     {
       name: "セルゲイ\nミハイロヴィッチ\nブリン",
       value:
         "アイデアを思いつくことは何か素晴らしいものを作ることの中で最も大事な部分ではありません。一番大事なのは実行することです。",
-      img: "/images/Sergey.jpg",
+      img: "/images/Brin.jpg",
       feeling: "lets",
     },
     {
       name: "セルゲイ\nミハイロヴィッチ\nブリン",
       value: "厳しい時代こそ最高のものが生み出される。",
-      img: "/images/Sergey.jpg",
+      img: "/images/Brin.jpg",
       feeling: "lets",
     },
 
     {
       name: "セルゲイ\nミハイロヴィッチ\nブリン",
       value: "今の時代に成功する人は非常に洗練されていなければなりません。",
-      img: "/images/Sergey.jpg",
+      img: "/images/Brin.jpg",
       feeling: "lets",
     },
     {
       name: "セルゲイ\nミハイロヴィッチ\nブリン",
       value: "成功はシンプルから生まれる。",
-      img: "/images/Sergey.jpg",
+      img: "/images/Brin.jpg",
       feeling: "lets",
     },
 
@@ -274,10 +274,10 @@ export default function LetsGo() {
   return (
     <div className="h-screen w-screen justify-center items-center">
       <div className="flex h-2/6 text-center justify-center items-center">
-        <div className="w-1/3 flex text-center justify-center items-center">
+        <div className="flex text-center justify-center items-center">
           <Img img={img} />
         </div>
-        <div className="w-2/3 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
+        <div className="leading-8 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
           <Title text={name} />
         </div>
       </div>{" "}
