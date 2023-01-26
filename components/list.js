@@ -1,16 +1,5 @@
-// 疲れたよ。。
 
-import { useState } from "react";
-import { Button } from "../components/Button";
-import { Title } from "../components/Title";
-import React from "react";
-import { Share } from "../components/Share";
-import { Img } from "../components/img";
-import { Card } from "../components/card";
-
-export default function Tired() {
-  //名言のリスト
-  const lists = [
+const lists = [
     {
       name: "スティーブ\nジョブズ",
       value: "一つのことを、一生やり続けられると確信する日がくる",
@@ -42,20 +31,20 @@ export default function Tired() {
     {
       name: "ラリー\nペイジ",
       value: "アイデアに価値はない。それを実行できてはじめて価値になる",
-      img: "/images/Larry_Page.jpg",
+      img: "/images/Larry_page.jpg",
       feeling: "tired",
     },
     {
       name: "ラリー\nペイジ",
       value: "大胆な挑戦の末での失敗ならば、問題ではない",
-      img: "/images/Larry_Page.jpg",
+      img: "/images/Larry_page.jpg",
       feeling: "tired",
     },
 
     {
       name: "ラリー\nペイジ",
       value: "夢を持つなら、とびきり野心的な方がいい。その方が前に進めるから",
-      img: "/images/Larry_Page.jpg",
+      img: "/images/Larry_page.jpg",
       feeling: "tired",
     },
     {
@@ -153,30 +142,3 @@ export default function Tired() {
       feeling: "tired",
     },
   ];
-  //ランダムな数字を出して、数字を元に名言を出す
-  const [number, setNumber] = useState(Math.floor(Math.random() * 21));
-  const name = lists[number].name;
-  const content = lists[number].value;
-  const img = lists[number].img;
-
-  return (
-    <div className="h-screen w-screen justify-center items-center">
-      {/* <Card img={img} text={name} content={content} className="flex text-center justify-center items-center h-4/6" /> */}
-      <div className="card flex h-2/6 text-center justify-center items-center">
-        <div className=" flex text-center justify-center items-center">
-          <Img img={img} />
-        </div>
-        <div className="leading-8 text-center tracking-wider flex justify-center items-center whitespace-pre-wrap sm:text-8xl">
-          <Title text={name} />
-        </div>
-      </div>
-
-      <div className="h-2/6 p-6 text-center leading-10 text-xl tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
-        <p>『{content}』</p>
-      </div>  
-
-      <Button text="戻る" href="/selection" />
-      <Share />
-    </div>
-  );
-}

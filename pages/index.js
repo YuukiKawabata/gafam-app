@@ -14,7 +14,6 @@ export default function Home() {
       </Head>
 
       <Title text={`ビッグ・テック名言`} />
-
       <Inside />
       <Button text="始める" href="/selection" />
       <Share />

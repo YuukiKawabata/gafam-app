@@ -1,18 +1,12 @@
 export function Inside() {
   return (
-    <div className="h-2/6 p-2 text-base text-center tracking-widest flex flex-wrap justify-center items-center sm:text-2xl">
-      <p className="p-2 leading-8">
-        気分を選択すると
+    <div className="h-2/6 p-4 text-base text-center tracking-widest flex flex-wrap justify-center items-center sm:text-2xl">
+      <p className="leading-8">
+        このアプリは今の気持ちに合った名言が表示されます。
         <br />
-        ピッタリの名言が表示されます！
+        きっと、あなたに良いアドバイスをしてくれるでしょう。
         <br />
-        <br />
-        今日も名言を噛み締めて
-        <br />
-        1日を頑張ろう!
-        <br />
-        出来ない時、困った時、 <br />
-        貴方の気持ちが前向きになりますように。
+        始めるを押して今の気持ちを選択してください。
       </p>
     </div>
   );
