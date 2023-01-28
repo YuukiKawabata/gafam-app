@@ -136,8 +136,8 @@ export default function Rest() {
         </div>
       </div>
 
-      <div className="h-2/6 p-6 text-center leading-10 text-xl tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
-        <p>『{content}』</p>
+      <div className="card overflow-auto h-2/6 p-6 text-center leading-10 text-xl tracking-widest flex flex-wrap justify-center items-center sm:text-4xl">
+        <p>{content}</p>
       </div>
 
       <Button text="戻る" href="/selection" />
